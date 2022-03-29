@@ -11,7 +11,7 @@ import {
 //Gett ThE CuRRent UsEr PRoFiLe
 export const getCurrentProfile = () => async dispatch => {
    try {
-    const res = await axios.get('https://db.lasereneresorts.com.lasereneresorts.com/api/profile/admin');
+    const res = await axios.get('http://localhost:5000/api/profile/admin');
 
     dispatch({
         type: GET_PROFILE,
@@ -32,7 +32,7 @@ export const getProfiles = () => async dispatch => {
     dispatch({ type: CLEAR_PROFILE });
 
     try {
-     const res = await axios.get('https://db.lasereneresorts.com.lasereneresorts.com/api/profile');
+     const res = await axios.get('http://localhost:5000/api/profile');
  
      dispatch({
          type: GET_PROFILES,
@@ -50,7 +50,7 @@ export const getProfiles = () => async dispatch => {
 //get Profile by userId
 export const getProfileById = userId => async dispatch => {
    try {
-    const res = await axios.get(`https://db.lasereneresorts.com.lasereneresorts.com/api/profile/user/${userId}`);
+    const res = await axios.get(`http://localhost:5000/api/profile/user/${userId}`);
 
     dispatch({
         type: GET_PROFILE,
@@ -75,7 +75,7 @@ export const createProfile = ( formData, navigate, edit = false) => async dispat
             }
         }
 
-        const res = await axios.post('https://db.lasereneresorts.com.lasereneresorts.com/api/profile', formData, config);
+        const res = await axios.post('http://localhost:5000/api/profile', formData, config);
 
         dispatch({
             type: GET_PROFILE,

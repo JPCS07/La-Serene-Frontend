@@ -55,5 +55,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://db.lasereneresorts.com.lasereneresorts.com"
+  "proxy": "http://localhost:5000"
 }

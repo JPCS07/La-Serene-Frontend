@@ -5,7 +5,7 @@ export const PlacesData = [
         id:1,
         placesImg: "https://assets.traveltriangle.com/blog/wp-content/uploads/2014/11/Venna-Lake-in-Mahabaleshwar.jpg",
         places: "Venna Lake – The Most Visited Place",
-        para: "Venna Lake, the most popular among the tourist places in Mahabaleshwar, is a bustling tourist spot.Key Attractions: Fishing for adults and mini-train rides for kids.Opening Hours: 7 am to 7 pm, every day. Entry Fee: None."
+        para: "Venna Lake, the most popular among the tourist places in Mahabaleshwar, is a bustling tourist spot.Key Attractions: Fishing for adults and mini-train rides for kids.Opening Hours: 7 am to 8 pm, every day. Entry Fee: None."
     },
     {
         id:2,
